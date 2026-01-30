@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trello Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>Trello Notes</h1>
+</header>
+
+<main id="board" class="board"></main>
+
+<button id="add-list" class="add-list">
+  + Añadir lista
+</button>
+
+<!-- MODAL -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <h3 id="modal-title"></h3>
+
+    <input
+      id="modal-input"
+      type="text"
+      placeholder=""
+      autocomplete="off"
+    />
+
+    <textarea
+      id="modal-description"
+      placeholder="Descripción (opcional)"
+    ></textarea>
+
+    <div class="modal-actions">
+      <button id="modal-cancel">Cancelar</button>
+      <button id="modal-confirm">Crear</button>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
