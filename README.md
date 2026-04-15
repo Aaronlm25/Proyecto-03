@@ -7,3 +7,4 @@ A simple and functional notepad built with HTML, CSS and JavaScript.
 🔍 Search bar to find your notes quickly
 
 Hello Word
+I am Aaron
